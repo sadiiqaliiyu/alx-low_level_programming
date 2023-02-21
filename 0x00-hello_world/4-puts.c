@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
- * main - This is main function of the program
- * Return - the value 0;
+ *main -This is function where the code is run
+ *@void: This parameter has an empty value
+ *puts: print value
+ * Return: It returns the value 0 which signify success
  */
 int main(void)
 {
