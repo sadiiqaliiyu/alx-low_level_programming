@@ -5,9 +5,9 @@
  *
  *Return: always 0 (success)
  */
-int main()
+int main(void)
 {
-	_print_rev_recursion("Sadiiq");
+	_print_rev_recursion("\nColton Walker");
 
 	return (0);
 }
