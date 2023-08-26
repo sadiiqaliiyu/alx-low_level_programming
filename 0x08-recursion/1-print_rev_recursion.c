@@ -13,11 +13,9 @@ void _print_rev_recursion(char *s)
 	char revString[strlen(string)];
 	int j;
 
-	for (i = strlen(string)-1; i >= 0; i--)
+	for (i = strlen(string) - 1; i >= 0; i--)
 	{
 		revString[j++] = string[i];
 	}
-
 	printf("%s\n", revString);
-
 }
